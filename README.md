@@ -1,6 +1,6 @@
 # CORS_Filter
 
-#Step 1: Filter java file
+## Step 1: Filter java file
 
 import java.io.IOException;
 
@@ -39,7 +39,7 @@ public class CORSFilter implements Filter {
 	}
 }
 
-#Step 2: web.xml
+## Step 2: web.xml
 
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
@@ -60,7 +60,7 @@ public class CORSFilter implements Filter {
 </web-app>
 
 	
-## CORS Filter in restful Web services
+# CORS Filter in restful Web services
 
 import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
