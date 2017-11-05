@@ -40,7 +40,7 @@ public class CORSFilter implements Filter {
 }
 ```
 ## Step 2: web.xml
-```java
+```xml
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 	<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.5"
@@ -58,7 +58,7 @@ public class CORSFilter implements Filter {
 			<url-pattern>*</url-pattern>
 		</filter-mapping>
 </web-app>
-'''
+```
 	
 # CORS Filter in restful Web services
 
